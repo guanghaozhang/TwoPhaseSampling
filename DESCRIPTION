@@ -1,0 +1,15 @@
+Package: TwoPhaseSampling
+Type: Package
+Title: Recruit patients from EHR data following the efficient two-phase sampling framework
+Version: 0.1.0
+Author: Guanghao Zhang, Xu Shi
+Maintainer: Guanghao Zhang <ghzhang@umich.edu>
+Description: Suppose a study to estimate the mean or mean difference of an expensive outcome in a target population, with inexpensive auxiliary covariates predictive of the outcome available in patients' electronic health records (EHR). This package provides an efficient two-phase sampling design that leverages available information on auxiliary covariates in EHR data, while accounting for the potential selection bias in EHR data. This package also provides efficient estimator for the mean outcome resulting from the proposed sampling scheme.
+License: GPL-3
+Encoding: UTF-8
+Imports: 
+    stats,
+    statmod,
+    robustbase
+LazyData: true
+RoxygenNote: 7.3.1
